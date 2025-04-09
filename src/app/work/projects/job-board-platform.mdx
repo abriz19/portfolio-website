@@ -1,0 +1,42 @@
+---
+title: "Job Board Platform"
+publishedAt: "2024-03-10"
+summary: "A job board platform where companies can post job listings, manage applicants, and set custom admin roles with permissions."
+images:
+  - "/images/projects/project-02/cover-01.jpg"
+  - "/images/projects/project-02/image-04.jpg"
+team:
+  - name: "Abreham Dessu"
+    role: "Back-End Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/abreham-dessu/"
+link: "#"
+---
+
+## Overview
+
+The **Job Board Platform** enables companies to post jobs, manage applicants, and customize admin roles with specific permissions. The platform leverages **microservices** for scalable handling of different services such as job management, user management, and application tracking. The **Kafka** event-driven system ensures real-time synchronization across these services, making the platform highly responsive to user actions.
+
+## Key Features
+
+- **Job Listings**: Companies can post job openings with detailed descriptions and requirements.
+- **Role-Based Access Control**: Administrators can define custom roles and permissions for job posting and applicant management.
+- **Applicant Management**: Users can apply for jobs, and companies can track applicants through their profile and application status.
+- **Real-Time Notifications**: Admins and applicants are notified in real-time regarding job postings, application status, and any updates.
+- **Microservices Architecture**: Modular design for easy scalability, with different services managing jobs, users, and applications independently.
+
+## Technologies Used
+
+- **Node.js**: For backend services and API integration.
+- **PostgreSQL**: For database management and storage of job listings, applications, and user profiles.
+- **Kafka**: For event-driven communication between job and user management services.
+- **JWT Authentication**: For secure login and authorization of users and admins.
+- **React & Next.js**: For building the frontend user interface with a clean, responsive design.
+
+## Challenges and Learnings
+
+The primary challenge involved managing complex relationships between jobs, applicants, and admin roles. Ensuring that the system could handle a large volume of job postings and applications in real-time was another hurdle. Additionally, integrating role-based access control and ensuring the right permissions were applied to the right users required careful planning.
+
+## Outcome
+
+The **Job Board Platform** has enabled efficient job posting, application management, and user access control, making it a versatile and scalable solution for businesses and applicants alike. The platform’s architecture ensures that it can handle growth, both in terms of user traffic and additional features in the future.
